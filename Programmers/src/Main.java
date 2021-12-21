@@ -2,12 +2,10 @@
 public class Main {
 
 	public static void main(String[] args) {
-		기능개발 test = new 기능개발();
-		int[] progresses = {93,30,55};
-		int[] speeds = {1,30,5};
-		int[] result = test.solution(progresses,speeds);
-		for(int i=0;i<result.length;i++) {
-			System.out.println(result[i]);	
-		}
+		프린터 test = new 프린터();
+		int[] priorities = {2,1,3,2};
+		int location = 2;
+		int result = test.solution(priorities,location);
+		System.out.println(result);	
 	}
 }
