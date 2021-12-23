@@ -2,12 +2,12 @@
 public class Main {
 
 	public static void main(String[] args) {
-		다리를지나는트럭 test = new 다리를지나는트럭();
-		int bridge_length = 2;
-		int weight = 10;
-		int[] truck_weights = {7,4,5,6};
+		주식가격 test = new 주식가격();
+		int[] prices = {1,2,3,2,3};
 
-		int result = test.solution(bridge_length,weight,truck_weights);
-		System.out.println(result);	
+		int[] result = test.solution(prices);
+		for(int i=0;i<result.length;i++) {
+			System.out.println(result[i]);	
+		}
 	}
 }
