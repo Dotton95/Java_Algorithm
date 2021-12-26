@@ -2,10 +2,13 @@
 public class Main {
 
 	public static void main(String[] args) {
-		전화번호목록 test = new 전화번호목록();
-		String[] phone_book  = {"119", "97674223", "1195524421"};
+		위장 test = new 위장();
+		String[][] clothes  = {
+				{"yellowhat", "headgear"},
+				{"bluesunglasses", "eyewear"}, 
+				{"green_turban", "headgear"}};
 	
-		boolean result = test.solution(phone_book);
+		int result = test.solution(clothes);
 		System.out.println(result);	
 	}
 }
