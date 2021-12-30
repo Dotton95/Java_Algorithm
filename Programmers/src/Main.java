@@ -2,13 +2,11 @@
 public class Main {
 
 	public static void main(String[] args) {
-		¿ß¿Â test = new ¿ß¿Â();
-		String[][] clothes  = {
-				{"yellowhat", "headgear"},
-				{"bluesunglasses", "eyewear"}, 
-				{"green_turban", "headgear"}};
-	
-		int result = test.solution(clothes);
+		√º¿∞∫π test = new √º¿∞∫π();
+		int n = 5;
+		int[] lost = {2,4};
+		int[] reserve = {1,3,5};
+		int result = test.solution(n,lost,reserve);
 		System.out.println(result);	
 	}
 }
