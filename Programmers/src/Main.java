@@ -2,11 +2,11 @@
 public class Main {
 
 	public static void main(String[] args) {
-		체육복 test = new 체육복();
-		int n = 5;
-		int[] lost = {2,4};
-		int[] reserve = {1,3,5};
-		int result = test.solution(n,lost,reserve);
-		System.out.println(result);	
+		모의고사 test = new 모의고사();
+		int[] answers = {1,2,3,4,5};
+		int[] result = test.solution(answers);
+		for(int i=0;i<result.length;i++) {
+			System.out.println(result[i]);	
+		}
 	}
 }
