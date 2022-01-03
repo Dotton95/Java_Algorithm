@@ -2,10 +2,10 @@
 public class Main {
 
 	public static void main(String[] args) {
-		´õ¸Ê°Ô test = new ´õ¸Ê°Ô();
-		int[] scoville = {1,2,3,9,10,12};
-		int k = 7;
-		int result = test.solution(scoville,k);
+		Å¸°Ù³Ñ¹ö test = new Å¸°Ù³Ñ¹ö();
+		int[] numbers = {1,1,1,1,1};
+		int target = 3;
+		int result = test.solution(numbers,target);
 		System.out.println(result);	
 	}
 }
