@@ -2,10 +2,10 @@
 public class Main {
 
 	public static void main(String[] args) {
-		타겟넘버 test = new 타겟넘버();
-		int[] numbers = {1,1,1,1,1};
-		int target = 3;
-		int result = test.solution(numbers,target);
+		큰수만들기 test = new 큰수만들기();
+		String numbers = "1924";
+		int k = 2;
+		String result = test.solution(numbers,k);
 		System.out.println(result);	
 	}
 }
